@@ -11,3 +11,9 @@
 
 (defn alt-nth-element [input number]
    (first (drop number input)))
+
+(defn count-seq [input]
+  (count input))
+
+(defn sum-it-up [input]
+  (reduce + input))
